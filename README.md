@@ -1,6 +1,6 @@
 ![IndoCoin](http://indocoin.net/assets/img/logo.png)
 
-## Such coin (What is Indocoin?)
+##What is Indocoin?
 Indocoin is an open source peer-to-peer cryptocurrency, aimed towards Indonesian community.
 http://indocoin.net/
 
