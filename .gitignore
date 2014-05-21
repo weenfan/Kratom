@@ -1,0 +1,37 @@
+src/*.exe
+src/indocoin
+src/indocoind
+src/test_indocoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.indocoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+indocoin-qt
+Indocoin-Qt.app
+
+# Unit-tests
+Makefile.test
+indocoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+# Windows specific
+Thumbs.db
+
+!src/leveldb*/Makefile
