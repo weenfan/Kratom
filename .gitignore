@@ -2,6 +2,7 @@ src/*.exe
 src/kratom
 src/kratomd
 src/test_kratom
+release
 .*.swp
 *.*~*
 *.bak
@@ -14,6 +15,10 @@ src/test_kratom
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
+Makefile.Debug
+Makefile.Release
+object_script.kratom-qt.Debug
+object_script.kratom-qt.Release
 kratom-qt
 Kratom-Qt.app
 
