@@ -12,6 +12,9 @@ release
 *.patch
 .kratom
 
+libs
+*.dll
+
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
