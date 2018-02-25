@@ -289,7 +289,7 @@ void TransactionView::contextualMenu(const QPoint &point)
         contextMenu->addAction(tr("Edit label"), this, SLOT(editLabel()));
         contextMenu->addAction(tr("Show transaction details"), this, SLOT(showDetails()));
         contextMenu->addSeparator();
-        contextMenu->addAction(tr("Show transaction on Indocoin.info"), this, SLOT(viewOnDogechain()));
+        contextMenu->addAction(tr("Show transaction on Kratom.pw"), this, SLOT(viewOnDogechain()));
 
         contextMenu->exec(QCursor::pos());
         delete contextMenu;
@@ -379,7 +379,7 @@ void TransactionView::viewOnDogechain()
     QModelIndexList selection = transactionView->selectionModel()->selectedRows();
     if(!selection.isEmpty())
     {
-        QString format("http://indocoin.info/index.php?transaction=");
+        QString format("http://explorer.kratom.pw:2750/tx/");
         format += selection.at(0).data(TransactionTableModel::TxIDRole).toString();
 
         QDesktopServices::openUrl(QUrl(format));

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013-2014 Indocoin Developers
+// Copyright (c) 2013-2014 Kratom Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -627,7 +627,7 @@ public:
     {
         // Large (in bytes) low-priority (new, small-coin) transactions
         // need a fee.
-        return dPriority > 100 * COIN * 1440 / 250; // IndoCoin: 1440 blocks found a day. Priority cutoff is 100 indocoin day / 250 bytes.
+        return dPriority > 100 * COIN * 1440 / 250; // Kratom: 1440 blocks found a day. Priority cutoff is 100 kratom day / 250 bytes.
     }
 
 // Apply the effects of this transaction on the UTXO set represented by view

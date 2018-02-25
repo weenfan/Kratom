@@ -119,7 +119,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
 
     // Customized branding image.
     boost::filesystem::path dogepath = GetDataDir(false);
-    dogepath /= "indocoin.png";
+    dogepath /= "kratom.png";
     QPixmap shibecoin(dogepath.string().c_str());
 
     if ( !shibecoin.isNull() ) {

@@ -1,10 +1,10 @@
 # -*- mode: Makefile; -*-
 # Copyright (c) 2011 Bitcoin Developers
-# Copyright (c) 2013-2014 Indocoin Developers
+# Copyright (c) 2013-2014 Kratom Developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-# Mac OS X makefile for Indocoin
+# Mac OS X makefile for Kratom
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=c++
@@ -136,10 +136,10 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: indocoind
+all: kratomd
 
-test check: test_indocoin FORCE
-	./test_indocoin
+test check: test_kratom FORCE
+	./test_kratom
 
 #
 # LevelDB support
@@ -173,7 +173,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-indocoind: $(OBJS:obj/%=obj/%)
+kratomd: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -185,11 +185,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_indocoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_kratom: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
-	-rm -f indocoind test_indocoin
+	-rm -f kratomd test_kratom
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

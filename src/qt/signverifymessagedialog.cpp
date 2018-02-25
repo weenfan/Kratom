@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Indocoin address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a Kratom address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Indocoin address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter Indocoin signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a Kratom address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter Kratom signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

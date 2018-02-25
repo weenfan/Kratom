@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Indocoin</source>
-        <translation>Indocoinist</translation>
+        <source>About Kratom</source>
+        <translation>Kratomist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Indocoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Indocoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;Kratom&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Kratomi&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -44,7 +44,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>2013-%1 The Indocoin developers</source>
+        <source>2013-%1 The Kratom developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -77,8 +77,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Indocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad Indocoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your Kratom addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad Kratomi aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -92,7 +92,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Indocoin address</source>
+        <source>Sign a message to prove you own a Kratom address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -117,8 +117,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Indocoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Indocoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified Kratom address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Kratomi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -132,8 +132,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Indocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Indocoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your Kratom addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Kratomi aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -285,8 +285,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Indocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your indocoins from being stolen by malware infecting your computer.</source>
-        <translation>Indocoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista indocoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Kratom will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your kratoms from being stolen by malware infecting your computer.</source>
+        <translation>Kratom sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista kratomide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -384,8 +384,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Indocoin</source>
-        <translation>Kuva info Indocoini kohta</translation>
+        <source>Show information about Kratom</source>
+        <translation>Kuva info Kratomi kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Indocoin address</source>
-        <translation>Saada münte Indocoini aadressile</translation>
+        <source>Send coins to a Kratom address</source>
+        <translation>Saada münte Kratomi aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Indocoin</source>
-        <translation>Muuda Indocoini seadeid</translation>
+        <source>Modify configuration options for Kratom</source>
+        <translation>Muuda Kratomi seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -465,8 +465,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Indocoin</source>
-        <translation>Indocoin</translation>
+        <source>Kratom</source>
+        <translation>Kratom</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -490,8 +490,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Indocoin</source>
-        <translation>%Indocoinist</translation>
+        <source>&amp;About Kratom</source>
+        <translation>%Kratomist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -510,13 +510,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Indocoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Indocoini aadressiga</translation>
+        <source>Sign messages with your Kratom addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Kratomi aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Indocoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Indocoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Kratom addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Kratomi aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -546,13 +546,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Indocoin client</source>
-        <translation>Indocoini klient</translation>
+        <source>Kratom client</source>
+        <translation>Kratomi klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Indocoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Indocoini võrku</numerusform><numerusform>%n aktiivset ühendust Indocoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Kratom network</source>
+        <translation><numerusform>%n aktiivne ühendus Kratomi võrku</numerusform><numerusform>%n aktiivset ühendust Kratomi võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -665,8 +665,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Indocoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Indocoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Kratom address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Kratomi aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -680,8 +680,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Indocoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. Indocoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. Kratom can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. Kratom suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -746,8 +746,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Indocoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole Indocoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Kratom address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole Kratomis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -765,8 +765,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Indocoin-Qt</source>
-        <translation>Indocoini-Qt</translation>
+        <source>Kratom-Qt</source>
+        <translation>Kratomi-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -828,13 +828,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Indocoin after logging in to the system.</source>
-        <translation>Käivita Indocoin süsteemi logimisel.</translation>
+        <source>Automatically start Kratom after logging in to the system.</source>
+        <translation>Käivita Kratom süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Indocoin on system login</source>
-        <translation>&amp;Start Indocoin sisselogimisel</translation>
+        <source>&amp;Start Kratom on system login</source>
+        <translation>&amp;Start Kratom sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Indocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Indocoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Kratom client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Kratomi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -863,8 +863,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Indocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta Indocoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the Kratom network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta Kratomi võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -938,8 +938,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Indocoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Indocoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Kratom.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Kratomi käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -953,8 +953,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Indocoin addresses in the transaction list or not.</source>
-        <translation>Kuvada Indocoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show Kratom addresses in the transaction list or not.</source>
+        <translation>Kuvada Kratomi aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1005,8 +1005,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Indocoin.</source>
-        <translation>Tehtud valik rakendub Indocoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting Kratom.</source>
+        <translation>Tehtud valik rakendub Kratomi käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1024,7 +1024,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Indocoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Kratom network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1078,8 +1078,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start indocoin: click-to-pay handler</source>
-        <translation>Indocoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start kratom: click-to-pay handler</source>
+        <translation>Kratom ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1228,8 +1228,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Indocoin-Qt help message to get a list with possible Indocoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks Indocoini-Qt abiteksti</translation>
+        <source>Show the Kratom-Qt help message to get a list with possible Kratom command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks Kratomi-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1248,13 +1248,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Indocoin - Debug window</source>
-        <translation>Indocoin - debugimise aken</translation>
+        <source>Kratom - Debug window</source>
+        <translation>Kratom - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Indocoin Core</source>
-        <translation>Indocoini tuumik</translation>
+        <source>Kratom Core</source>
+        <translation>Kratomi tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Indocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava Indocoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the Kratom debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Kratomi logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1273,8 +1273,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Indocoin RPC console.</source>
-        <translation>Teretulemast Indocoini RPC konsooli.</translation>
+        <source>Welcome to the Kratom RPC console.</source>
+        <translation>Teretulemast Kratomi RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1328,8 +1328,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 IDC</source>
-        <translation>123,456 IDC</translation>
+        <source>123.456 KTO</source>
+        <translation>123,456 KTO</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1457,8 +1457,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Indocoin address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</source>
-        <translation>Sisesta Indocoini aadress (nt: GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</translation>
+        <source>Enter a Kratom address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</source>
+        <translation>Sisesta Kratomi aadress (nt: GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</translation>
     </message>
 </context>
 <context>
@@ -1522,8 +1522,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Indocoin address</source>
-        <translation>Allkirjasta sõnum Indocoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Kratom address</source>
+        <translation>Allkirjasta sõnum Kratomi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1558,8 +1558,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Indocoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Indocoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Kratom address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Kratomi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Indocoin address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</source>
-        <translation>Sisesta Indocoini aadress (nt: GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</translation>
+        <source>Enter a Kratom address (e.g. GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</source>
+        <translation>Sisesta Kratomi aadress (nt: GM5RxyuyWw5wUCnkUXteFuMpu6jieCkVSt)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1584,8 +1584,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Indocoin signature</source>
-        <translation>Sisesta Indocoini allkiri</translation>
+        <source>Enter Kratom signature</source>
+        <translation>Sisesta Kratomi allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1658,7 +1658,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Indocoin developers</source>
+        <source>The Kratom developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Indocoin version</source>
-        <translation>Indocoini versioon</translation>
+        <source>Kratom version</source>
+        <translation>Kratomi versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2206,8 +2206,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or indocoind</source>
-        <translation>Saada käsklus -serverile või indocoindile</translation>
+        <source>Send command to -server or kratomd</source>
+        <translation>Saada käsklus -serverile või kratomdile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2226,13 +2226,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: indocoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: indocoin.conf)</translation>
+        <source>Specify configuration file (default: kratom.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: kratom.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: indocoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: indocoin.pid)</translation>
+        <source>Specify pid file (default: kratomd.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: kratom.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2309,24 +2309,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=indocoinrpc
+rpcuser=kratomrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Indocoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Kratom Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=indocoinrpc
+rpcuser=kratomrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;Indocoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;Kratom Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2341,8 +2341,8 @@ nt: alertnotify=echo %%s | email -s &quot;Indocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Indocoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Indocoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. Kratom is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Kratom juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2386,8 +2386,8 @@ nt: alertnotify=echo %%s | email -s &quot;Indocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Indocoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Indocoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Kratom will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Kratom ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2636,8 +2636,8 @@ nt: alertnotify=echo %%s | email -s &quot;Indocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Indocoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata Indocoin Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the Kratom Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata Kratom Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2826,13 +2826,13 @@ nt: alertnotify=echo %%s | email -s &quot;Indocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Indocoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Indocoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Kratom</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Kratomi uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Indocoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Indocoin</translation>
+        <source>Wallet needed to be rewritten: restart Kratom to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Kratom</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2891,8 +2891,8 @@ nt: alertnotify=echo %%s | email -s &quot;Indocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Indocoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Indocoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. Kratom is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Kratom juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

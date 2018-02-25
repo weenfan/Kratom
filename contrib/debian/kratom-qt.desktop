@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Kratom
+Comment=Kratom P2P Cryptocurrency
+Comment[fr]=Kratom, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Kratom, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/kratom-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/kratom128.png
+MimeType=x-scheme-handler/kratom;
+Categories=Office;

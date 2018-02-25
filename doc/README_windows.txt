@@ -1,8 +1,8 @@
-Indocoin 1.5.0
+Kratom 1.5.0
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
-Copyright (c) 2013-2014 Indocoin Developers
+Copyright (c) 2013-2014 Kratom Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -13,7 +13,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Indocoin is a free open source peer-to-peer electronic cash system that is
+Kratom is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -21,10 +21,10 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run indocoin-qt.exe.
+Unpack the files into a directory and run kratom-qt.exe.
 
-indocoin-Qt is the original indocoin client and it builds the backbone of the network.
-However, it downloads and stores the entire history of indocoin transactions;
+kratom-Qt is the original kratom client and it builds the backbone of the network.
+However, it downloads and stores the entire history of kratom transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 

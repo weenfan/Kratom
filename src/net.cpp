@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013-2014 Indocoin Developers
+// Copyright (c) 2013-2014 Kratom Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,10 +16,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <miniupnpc/miniwget.h>
-#include <miniupnpc/miniupnpc.h>
-#include <miniupnpc/upnpcommands.h>
-#include <miniupnpc/upnperrors.h>
+#include <miniwget.h>
+#include <miniupnpc.h>
+#include <upnpcommands.h>
+#include <upnperrors.h>
 #endif
 
 // Dump addresses to peers.dat every 15 minutes (900s)
@@ -1113,7 +1113,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "Indocoin " + FormatFullVersion();
+        string strDesc = "Kratom " + FormatFullVersion();
 
         try {
             loop {
@@ -1193,8 +1193,8 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"indocoin.net", "128.199.216.204"},
-    {"indocoin.info", "seed.indocoin.info"},
+    {"explorer.kratom.cash", "104.236.167.70"},
+    {"config2.kranzworthmedia.com", "seed.kratom.xyz"},
     {NULL, NULL}
 };
 
@@ -1680,7 +1680,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. Indocoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Kratom is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

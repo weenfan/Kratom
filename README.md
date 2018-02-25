@@ -1,11 +1,9 @@
-![IndoCoin](http://indocoin.net/assets/img/logo.png)
-
-##What is Indocoin?
-Indocoin is an open source peer-to-peer cryptocurrency, aimed towards Indonesian community.
-http://indocoin.net/
+##What is Kratom?
+Kratom is an open source peer-to-peer cryptocurrency.
+https://kratom.pw/
 
 ##License
-Indocoin is released under the terms of the MIT license. See [COPYING](COPYING)
+Kratom is released under the terms of the MIT license. See [COPYING](COPYING)
 for more information or see http://opensource.org/licenses/MIT.
 
 ##Development and contributions
@@ -22,9 +20,9 @@ Rewards are soft capped at 19,450,000,000. After that every block generate 500 I
 2,500,000+ = 500 IDC
 
 ##Specifications
-Scrypt Proof of Work. 1 Minute Block Targets, 4 Hour Diff Readjustments. For more info https://bitcointalk.org/index.php?topic=612311.0
+Scrypt Proof of Work. 1 Minute Block Targets, 4 Hour Diff Readjustments.
 
-##How to build `indocoind`
+##How to build `kratomd`
 ```bash
 sudo apt-get install build-essential \
                      libssl-dev \

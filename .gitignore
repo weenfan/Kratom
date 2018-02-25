@@ -1,7 +1,7 @@
 src/*.exe
-src/indocoin
-src/indocoind
-src/test_indocoin
+src/kratom
+src/kratomd
+src/test_kratom
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_indocoin
 *.orig
 *.o
 *.patch
-.indocoin
+.kratom
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-indocoin-qt
-Indocoin-Qt.app
+kratom-qt
+Kratom-Qt.app
 
 # Unit-tests
 Makefile.test
-indocoin-qt_test
+kratom-qt_test
 
 # Resources cpp
 qrc_*.cpp

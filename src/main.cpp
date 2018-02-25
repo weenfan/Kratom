@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2014 Litecoin Developers
-// Copyright (c) 2013-2014 Indocoin Developers
+// Copyright (c) 2013-2014 Kratom Developers
 // Contributions by /u/lleti, rog1121, and DigiByte (DigiShield Developers).
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -37,7 +37,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0x0ad6280cff3cc68b209ef97d4414a9adb976a9afefcb2829c5fceb37e7a83584");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Indocoin: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Kratom: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -69,7 +69,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Indocoin Signed Message:\n";
+const string strMessageMagic = "Kratom Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -360,7 +360,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // Indocoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // Kratom: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -632,7 +632,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
 #endif
     }
 
-    // Indocoin
+    // Kratom
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1132,8 +1132,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 }
 
 static const int64 nTargetTimespan = 4 * 60 * 60; // old retarget (4hrs)
-static const int64 nTargetTimespanNEW = 60 ; // IndoCoin: every 1 minute
-static const int64 nTargetSpacing = 60; // IndoCoin: 1 minutes
+static const int64 nTargetTimespanNEW = 60 ; // Kratom: every 1 minute
+static const int64 nTargetSpacing = 60; // Kratom: 1 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -1213,7 +1213,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
         return pindexLast->nBits;
     }
 
-    // Indocoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Kratom: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = retargetInterval-1;
     if ((pindexLast->nHeight+1) != retargetInterval)
@@ -2338,7 +2338,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // Indocoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // Kratom: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -4229,7 +4229,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// IndocoinMiner
+// KratomMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4642,7 +4642,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("IndocoinMiner:\n");
+    printf("KratomMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4651,7 +4651,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("IndocoinMiner : generated block is stale");
+            return error("KratomMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4665,17 +4665,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("IndocoinMiner : ProcessBlock, block not accepted");
+            return error("KratomMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static IndocoinMiner(CWallet *pwallet)
+void static KratomMiner(CWallet *pwallet)
 {
-    printf("IndocoinMiner started\n");
+    printf("KratomMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("indocoin-miner");
+    RenameThread("kratom-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4697,7 +4697,7 @@ void static IndocoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running IndocoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running KratomMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4797,7 +4797,7 @@ void static IndocoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("IndocoinMiner terminated\n");
+        printf("KratomMiner terminated\n");
         throw;
     }
 }
@@ -4822,7 +4822,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&IndocoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&KratomMiner, pwallet));
 }
 
 // Amount compression:

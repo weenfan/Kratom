@@ -27,7 +27,7 @@
  * online backup system.
  */
 
-// Copyright (c) 2013-2014 Indocoin Developers
+// Copyright (c) 2013-2014 Kratom Developers
 
 #include "scrypt.h"
 #include <stdlib.h>

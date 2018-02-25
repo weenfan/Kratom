@@ -84,6 +84,6 @@ Litecoin
 -------
 DOS prompt:
 
-	cd \indocoin\src
+	cd \kratom\src
 	mingw32-make -f makefile.mingw
-	strip indocoind.exe
+	strip kratomd.exe

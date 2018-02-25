@@ -6,10 +6,10 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>indocoin</string>
+			<string>kratom</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>indocoin</string>
+				<string>kratom</string>
 			</array>
 		</dict>
 	</array>
@@ -20,18 +20,18 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>CFBundleIconFile</key>
-	<string>Indocoin.icns</string>
+	<string>Kratom.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>© Indocoin</string>
+	<string>© Kratom</string>
 	<key>CFBundleSignature</key>
 	<string>IDC</string>
 	<key>CFBundleExecutable</key>
-	<string>Indocoin-Qt</string>
+	<string>Kratom-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.indocoin.wallet-qt</string>
+	<string>com.kratom.wallet-qt</string>
 	<key>CFBundleName</key>
-	<string>Indocoin-Qt</string>
+	<string>Kratom-Qt</string>
 </dict>
 </plist>

@@ -1,4 +1,4 @@
-Mac OS X indocoind build instructions
+Mac OS X kratomd build instructions
 ====================================
 
 Authors
@@ -27,7 +27,7 @@ Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 Notes
 -----
 
-See `doc/readme-qt.rst` for instructions on building Indocoin-Qt, the
+See `doc/readme-qt.rst` for instructions on building Kratom-Qt, the
 graphical user interface.
 
 Tested on OS X 10.6 through 10.9 on Intel processors only. PPC is not
@@ -36,7 +36,7 @@ supported because it is big-endian.
 All of the commands should be executed in a Terminal application. The
 built-in one is located in `/Applications/Utilities`.
 
-Much of this may be outdated for Indocoin.
+Much of this may be outdated for Kratom.
 
 Preparation
 -----------
@@ -75,14 +75,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `indocoind`
+### Building `kratomd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:indocoin-project/indocoin.git indocoin
-        cd indocoin
+        git clone git@github.com:kratom-project/kratom.git kratom
+        cd kratom
 
-2.  Build indocoind:
+2.  Build kratomd:
 
         cd src
         make -f makefile.osx
@@ -110,7 +110,7 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-For boost in indocoin, there are some ‘fun’ things you have to do:
+For boost in kratom, there are some ‘fun’ things you have to do:
 
  * download the latest boost from source
 
@@ -124,14 +124,14 @@ For boost in indocoin, there are some ‘fun’ things you have to do:
  * link the statics to /usr/local/lib/
  * make sure the headers for boost are in /usr/local/include/boost or linked from there.
 
-### Building `indocoind`
+### Building `kratomd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:indocoin/indocoin.git indocoin
-        cd indocoin
+        git clone git@github.com:kratom/kratom.git kratom
+        cd kratom
 
-2.  Build indocoind:
+2.  Build kratomd:
 
         cd src
         make -f makefile.osx
@@ -148,20 +148,20 @@ Creating a release build
 Running
 -------
 
-It's now available at `./indocoind`, provided that you are still in the `src`
+It's now available at `./kratomd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./indocoind` to get the filename where it should be put, or just try these
+Run `./kratomd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=indocoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/indocoin/indocoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/indocoin/indocoin.conf"
+    echo -e "rpcuser=kratomrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/kratom/kratom.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/kratom/kratom.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./indocoind --help  # for a list of command-line options.
-    ./indocoind -daemon # to start the indocoin daemon.
-    ./indocoind help    # When the daemon is running, to get a list of RPC commands
+    ./kratomd --help  # for a list of command-line options.
+    ./kratomd -daemon # to start the kratom daemon.
+    ./kratomd help    # When the daemon is running, to get a list of RPC commands
