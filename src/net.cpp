@@ -1193,8 +1193,8 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"explorer.kratom.cash", "104.236.167.70"},
-    {"config2.kranzworthmedia.com", "seed.kratom.xyz"},
+    {"config2.kranzworthmedia.com", "104.236.167.70"},
+    {"kratom.pw", "seed.kratom.pw"},
     {NULL, NULL}
 };
 
