@@ -39,3 +39,8 @@ RPC Port: 19451<br>
 P2P Port: 19457<br>
 -Testnet RPC: 19458<br>
 -Testnet P2P: 19459<br>
+
+
+Additional Linux Build Instructions:
+https://bitcointalk.org/index.php?topic=3018550.msg31608461#msg31608461
+
